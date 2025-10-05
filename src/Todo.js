@@ -46,7 +46,7 @@ const Todo = () => {
         onChange={(e) => setInput(e.target.value)}
       />
       <button onClick={(e) => handleAddTodo(e)}>
-        {!editTodo ? "Add" : "Edit"}
+        {!editTodo ? "Add" : "Edit Mode"}
       </button>
 
       {todos.map((todo) => (
